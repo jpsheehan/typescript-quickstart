@@ -9,7 +9,8 @@ Alternatively, you can just clone this repository and install the required packa
 
 ```bash
 git clone https://github.com/jpsheehan/typescript-quickstart.git
-npm install -D
+cd typescript-quickstart
+npm i -D
 ```
 
 ## Setting up the environment

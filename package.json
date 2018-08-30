@@ -1,0 +1,30 @@
+{
+  "name": "typescript-quickstart",
+  "version": "1.0.0",
+  "description": "A simple guide to get started with TypeScript. This article assumes you have NodeJS and NPM installed. If you don't, visit https://nodejs.org/en/download/ to download them. This article assumes that both the node and npm executables exist in your PATH environment variable. This article also assumes that `tsc` is not installed globally. All commands are written for bash on Linux and won't (probably) work on Windows.",
+  "main": "index.js",
+  "dependencies": {
+    "source-map-support": "^0.5.9",
+    "typescript": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.3",
+    "@types/source-map-support": "^0.4.1",
+    "tslint": "^5.11.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "example": "node ./bin/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpsheehan/typescript-quickstart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpsheehan/typescript-quickstart/issues"
+  },
+  "homepage": "https://github.com/jpsheehan/typescript-quickstart#readme"
+}
